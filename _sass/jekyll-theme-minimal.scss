@@ -156,10 +156,11 @@ strong {
 
 header nav {
   position: fixed;
-  top: 150px;
-  bottom: 150px;
+  top: 100px;
+  bottom: 0;
   width: 270px;
   overflow-y: auto;
+  padding: 0 0 70px 0;
 }
 header nav ul {
   list-style: none;
@@ -187,7 +188,8 @@ footer {
   width: 270px;
   float: left;
   position: fixed;
-  bottom: 50px;
+  bottom: 0;
+  border-color: #fff;
   -webkit-font-smoothing: subpixel-antialiased;
 }
 @media print, screen and (max-width: 960px) {
@@ -212,7 +214,6 @@ footer {
     position: static;
     width: auto;
     top: 0;
-    bottom: 0;
   }
 
   section {

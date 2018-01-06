@@ -25,7 +25,8 @@
       <ul>
         {% for type in bookmark.types %}
 
-        <li><a href="{{ site.baseurl }}{{ type.url }}">{{ type.title }}</a>
+        <li>
+          <p><a href="{{ site.baseurl }}{{ type.url }}">{{ type.title }}</a></p>
           <ul>
             {% for list in type.lists %}
             <li>
