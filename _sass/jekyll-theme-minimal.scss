@@ -56,9 +56,13 @@ h1, h2, h3, h4, h5, h6 {
   color: #222;
   margin: 0 0 20px;
 }
-table, pre, dl {
+p, table, pre, dl {
   margin: 0 0 20px;
 }
+ul, ol, li {
+  margin-bottom: 10px;
+}
+
 h1, h2, h3 {
   line-height: 1.1;
 }
@@ -256,6 +260,14 @@ footer {
     padding-right: 320px;
   }
 
+  header nav{
+    float: none;
+    position: static;
+    width: auto;
+    top: 0;
+    bottom: 0;
+  }
+
   section {
     border: 1px solid #e5e5e5;
     border-width: 1px 0;
@@ -282,7 +294,7 @@ footer {
     padding: 0;
   }
 
-  header ul, header p.view {
+  header ul, header p.view, header nav {
     position: static;
   }
 
@@ -293,14 +305,6 @@ footer {
 @media print, screen and (max-width: 480px) {
   body {
     padding: 15px;
-  }
-
-  header ul {
-    width: 99%;
-  }
-
-  header li, header ul li + li + li {
-    width: 33%;
   }
 }
 @media print {
