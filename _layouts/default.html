@@ -35,11 +35,11 @@
       <ul>
         {% for type in bookmark.types %}
 
-        <li><a href="{{ type.url }}">{{ type.title }}</a>
+        <li><a href="{{ site.baseurl }}{{ type.url }}">{{ type.title }}</a>
           <ul>
             {% for list in type.lists %}
             <li>
-              <a href="{{ list.url }}">{{ list.title }}</a>
+              <a href="{{ site.baseurl }}{{ list.url }}">{{ list.title }}</a>
             </li>
             {% endfor %}
           </ul>

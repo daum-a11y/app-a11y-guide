@@ -5,3 +5,4 @@ lang: ko
 collections:
   bookmark:
     output: true
+baseurl: /app-a11y-guide
