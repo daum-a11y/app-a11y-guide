@@ -1,1 +1,8 @@
+title: test
+description: test
 theme: jekyll-theme-minimal
+lang: ko
+baseurl: /app-a11y-guide
+collections:
+  bookmark:
+    output: true
