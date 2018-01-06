@@ -60,7 +60,7 @@ p, table, pre, dl {
   margin: 0 0 20px;
 }
 ul, ol, li {
-  margin-bottom: 10px;
+  margin-bottom: 7px;
 }
 
 h1, h2, h3 {
@@ -189,7 +189,7 @@ footer {
   float: left;
   position: fixed;
   bottom: 0;
-  border-color: #fff;
+  background-color: #fff;
   -webkit-font-smoothing: subpixel-antialiased;
 }
 @media print, screen and (max-width: 960px) {
