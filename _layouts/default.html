@@ -18,7 +18,7 @@
 </div>
 <div class="wrapper">
   <header>
-    <a href="{{ site.baseurl }}"><h1>{{ site.title | default: site.github.repository_name }}</h1></a>
+    <a href="{{ site.baseurl }}"><h1>{{ site.fulltitle }}</h1></a>
     <p>{{ site.description | default: site.github.project_tagline }}</p>
     <nav>
       {% for bookmark in site.bookmark %}
@@ -49,15 +49,14 @@
   </section>
   <footer>
     {% if site.github.is_project_page %}
-    <a href="{{ site.github.repository_url }}">View the Project on GitHub
-      <small>{{ github_name }}</small>
-    </a>
-    {% endif %}
     <p>
-      <small>Hosted on GitHub Pages</small>
+      <small>Hosted on <a href="{{ site.github.repository_url }}">GitHub Pages</a></small>
     </p>
+    {% endif %}
+    <p><small>Copyright &copy; <a href="http://www.dktechin.co.kr/" target="_blank">dktechin Corp.</a> All rights reserved.</small></p>
   </footer>
 </div>
 <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
 
-</body></html>
+</body>
+</html>

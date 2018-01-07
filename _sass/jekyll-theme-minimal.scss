@@ -52,21 +52,32 @@ body {
   margin: 0;
   padding: 0
 }
-h1, h2, h3, h4, h5, h6 {
-  color: #222;
-  margin: 0 0 20px;
+.txt_left{
+  text-align: left;
 }
-p, table, pre, dl {
-  margin: 0 0 20px;
+.txt_center{
+  text-align: center;
 }
-ul, ol, li {
-  margin-bottom: 7px;
+.txt_right{
+  text-align: right;
+}
+
+h2, h3, h4, h5, h6 {
+  margin: 30px 0 16px 0;
+}
+h2:first-child {
+  margin-top: 0;
+}
+p, table, pre, dl, ul, ol, li {
+  margin: 5px 0 7px 0;
 }
 
 h1, h2, h3 {
   line-height: 1.1;
 }
 h1 {
+  color: #222;
+  margin-bottom: 20px;
   font-size: 28px;
   font-weight: 700;
 }
@@ -121,6 +132,8 @@ pre {
   border-radius: 5px;
   border: 1px solid #e5e5e5;
   overflow-x: auto;
+  /*word-break: break-word;
+  white-space: pre-wrap;*/
 }
 table {
   width: 100%;
@@ -171,6 +184,9 @@ header nav li {
   margin-left: 8px;
   padding: 0;
 }
+header nav li p {
+  margin-bottom: 10px;
+}
 section {
   margin: 0 0 0 320px;
   padding-bottom: 50px;
@@ -205,21 +221,19 @@ footer {
     width: auto;
   }
 
-  header {
-    padding-right: 320px;
-  }
-
   header nav{
     float: none;
     position: static;
     width: auto;
     top: 0;
+    padding-bottom: 20px;
+    border-top: 1px solid #e5e5e5;
   }
 
   section {
     border: 1px solid #e5e5e5;
     border-width: 1px 0;
-    padding: 20px 0;
+    padding: 30px 0;
     margin: 0 0 20px;
   }
 
