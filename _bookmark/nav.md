@@ -1,6 +1,6 @@
 ---
 types:
-  - title: "카카오 Mobile App 접근성 지침"
+  - title: "Mobile App 접근성 가이드"
     url: "/mobile"
     lists:
     - title: "1.1 적절한 대체텍스트 제공"
