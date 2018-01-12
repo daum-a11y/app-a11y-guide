@@ -277,6 +277,9 @@ footer {
     color: #444;
   }
   header nav {
-     display: none;
+    display: none;
+ }
+ hr {
+    page-break-before: always;
  }
 }
