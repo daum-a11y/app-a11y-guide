@@ -52,16 +52,15 @@ body {
   margin: 0;
   padding: 0
 }
-.txt_left{
+.txt_left {
   text-align: left;
 }
-.txt_center{
+.txt_center {
   text-align: center;
 }
-.txt_right{
+.txt_right {
   text-align: right;
 }
-
 h2, h3, h4, h5, h6 {
   margin: 30px 0 16px 0;
 }
@@ -71,7 +70,6 @@ h2:first-child {
 p, table, pre, dl, ul, ol, li {
   margin: 5px 0 7px 0;
 }
-
 h1, h2, h3 {
   line-height: 1.1;
 }
@@ -131,7 +129,7 @@ blockquote {
 code, pre {
   font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
   color: #333;
-  font-size:12px;
+  font-size: 12px;
 }
 pre {
   padding: 8px 15px;
@@ -168,12 +166,10 @@ header {
   position: fixed;
   -webkit-font-smoothing: subpixel-antialiased;
 }
-
 strong {
-  color:#222;
-  font-weight:700;
+  color: #222;
+  font-weight: 700;
 }
-
 header nav {
   position: fixed;
   top: 100px;
@@ -228,7 +224,7 @@ footer {
     width: auto;
   }
 
-  header nav{
+  header nav {
     float: none;
     position: static;
     width: auto;
@@ -278,8 +274,11 @@ footer {
   }
   header nav {
     display: none;
- }
- hr {
+  }
+  hr {
     page-break-before: always;
- }
+  }
+  table {
+    page-break-inside: avoid;
+  }
 }
