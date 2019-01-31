@@ -4,7 +4,7 @@ title: App Accessibility
 ---
 
 ## App Accessibility
-> dk techin x kakao
+> linkageLab x kakao
 
 ### Mobile App 접근성 가이드
 
